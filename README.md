@@ -1,6 +1,14 @@
-# AngularAssigments
+# Angular Assigments Build A Simple Table
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+
+## Requirement
+
+1. Build below table. The UI doesn't need to match 100%, just try your best
+2. The header is clickable, when click the arrow position changed accordingly
+3. After finish development, create a pull request on github
+
+![Simple Table](https://raw.githubusercontent.com/SuTran/angular-assignments/assignment-1-table/src/assets/assignment-1-table.png)
 
 ## Development server
 
