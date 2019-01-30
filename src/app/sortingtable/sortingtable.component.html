@@ -1,0 +1,19 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th (click)="sort(sortDirection)" scope="col">No. <img src={{sortDirection}}></th>
+      <th scope="col">Name</th>
+      <th scope="col">Weight</th>
+      <th scope="col">Symbol</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor = "let element of elements">
+      <td>{{element.no}}</td>
+      <td>{{element.name}}</td>
+      <td>{{element.weight}}</td>
+      <td>{{element.symbol}}</td>
+    </tr>
+  </tbody>
+</table>
+
